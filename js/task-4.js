@@ -1,6 +1,6 @@
 function getShippingCost(country) {
   let price;
-  
+
   // Використовуємо switch для визначення ціни доставки залежно від країни
   switch (country) {
     case "China":
@@ -19,7 +19,7 @@ function getShippingCost(country) {
       // Якщо країна не знайдена в списку
       return "Sorry, there is no delivery to your country";
   }
-  
+
   // Формуємо повідомлення про вартість доставки
   return `Shipping to ${country} will cost ${price} credits`;
 }

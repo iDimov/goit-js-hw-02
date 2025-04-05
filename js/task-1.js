@@ -1,7 +1,7 @@
 function makeTransaction(quantity, pricePerDroid, customerCredits) {
   // Обчислюємо загальну вартість замовлення
   const totalPrice = quantity * pricePerDroid;
-  
+
   // Перевіряємо, чи достатньо коштів у клієнта
   if (totalPrice > customerCredits) {
     return "Insufficient funds!";

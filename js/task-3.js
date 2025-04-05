@@ -1,7 +1,7 @@
 function checkForSpam(message) {
   // Перетворюємо повідомлення в нижній регістр для перевірки незалежно від регістру
   const lowerCaseMessage = message.toLowerCase();
-  
+
   // Перевіряємо, чи містить повідомлення заборонені слова
   return lowerCaseMessage.includes('spam') || lowerCaseMessage.includes('sale');
 }
